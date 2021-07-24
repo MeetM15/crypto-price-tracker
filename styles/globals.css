@@ -1,9 +1,16 @@
+/* --primary: #258ea6;
+--secondary: #1d3557;
+--whiteish: #f1faee;
+--redish: #e63946; */
 html,
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #080808;
+  color: white;
 }
 
 a {
@@ -11,6 +18,23 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.coin_app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  row-gap: 12px;
+}
+/* Layout Styles */
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: center;
 }
